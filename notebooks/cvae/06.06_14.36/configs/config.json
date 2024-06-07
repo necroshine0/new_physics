@@ -1,0 +1,26 @@
+{
+    "cvae": {
+        "var_dim": 4,
+        "cond_dim": 1,
+        "latent_dim": 8,
+        "hid_shapes": [
+            512,
+            256,
+            128,
+            64,
+            32,
+            16
+        ],
+        "act": "Tanh()",
+        "KL_weight": 0.001,
+        "n_epochs": 100,
+        "batch_size": 256,
+        "checkpoint_dir": "C:\\Users\\Oleg\\Github\\my_new_physics\\notebooks\\cvae/06.06_14.36/checkpoints",
+        "device": "cuda"
+    },
+    "train_args": {
+        "start_lr": 0.0001,
+        "weight_decay": 1e-06,
+        "n_epochs": 100
+    }
+}

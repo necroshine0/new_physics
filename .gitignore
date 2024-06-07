@@ -1,0 +1,11 @@
+__pycache__
+.idea
+.ipynb_checkpoints
+data/evaluation
+data/mock
+data/simulation
+data/*.csv
+data/*.h5
+notebooks/*/*/checkpoints/*
+notebooks/*/*/classifiers/runs/*
+notebooks/pipeline_ddpm-Copy2.ipynb

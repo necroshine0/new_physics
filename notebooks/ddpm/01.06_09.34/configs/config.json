@@ -1,0 +1,32 @@
+{
+    "ddpm": {
+        "backbone": {
+            "var_dim": 4,
+            "cond_dim": 1,
+            "hid_dim": 256,
+            "num_blocks": 8,
+            "n_steps": 1000,
+            "steps_dim": 256,
+            "steps_depth": 4,
+            "act": "SiLU()",
+            "dropout": 0.0,
+            "device": "cuda"
+        },
+        "betas": [
+            0.0001,
+            0.02
+        ],
+        "beta_grid": "sigmoid",
+        "sigma_method": "beta",
+        "n_epochs": 100,
+        "batch_size": 256,
+        "checkpoint_dir": "C:\\Users\\Oleg\\Github\\my_new_physics\\notebooks\\ddpm/01.06_09.34/checkpoints",
+        "device": "cuda"
+    },
+    "train_args": {
+        "start_lr": 1e-05,
+        "weight_decay": 0,
+        "n_epochs": 100,
+        "sched_lambda": 1.0
+    }
+}
