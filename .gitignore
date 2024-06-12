@@ -8,5 +8,3 @@ data/*.csv
 data/*.h5
 notebooks/*/*/checkpoints/*
 notebooks/*/*/classifiers/runs/*
-notebooks/pipeline_ddpm-Copy2.ipynb
-notebooks/ddpm/07.06_13.30/*

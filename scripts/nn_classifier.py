@@ -17,7 +17,7 @@ from sklearn.preprocessing import StandardScaler
 from torch.utils.data import TensorDataset, DataLoader
 
 
-def get_loaders(data_train, y_train, data_valid, y_valid, batch_size=4096, use_scaling=True):
+def get_loaders(data_train, y_train, data_valid, y_valid, batch_size=128, use_scaling=True):
     if use_scaling:
         sc = StandardScaler().fit(data_train)
         data_train_scaled = sc.transform(data_train)
