@@ -14,4 +14,4 @@ python data/prepare_data_csv.py
 
 Распределение наборов данных по моделям представлено в следующей таблице:
 
-![tab1](table 1.jpg)
+![tab1](table%201.jpg)
